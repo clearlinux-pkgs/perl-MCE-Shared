@@ -1,6 +1,7 @@
-1.879
+1.880
 perl(IO::FDPass)
 perl(MCE)
+perl(MCE::Channel)
 perl(MCE::Flow)
 perl(MCE::Mutex)
 perl(MCE::Signal)
