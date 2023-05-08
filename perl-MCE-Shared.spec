@@ -4,7 +4,7 @@
 #
 Name     : perl-MCE-Shared
 Version  : 1.880
-Release  : 4
+Release  : 5
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.880.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.880.tar.gz
 Summary  : 'MCE extension for sharing data supporting threads and processes'
