@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-MCE-Shared
-Version  : 1.881
-Release  : 6
-URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.881.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.881.tar.gz
+Version  : 1.885
+Release  : 7
+URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.885.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.885.tar.gz
 Summary  : 'MCE extension for sharing data supporting threads and processes'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl GPL-1.0
@@ -27,7 +27,7 @@ BuildRequires : perl(MCE::Util)
 
 %description
 ## MCE::Shared for Perl
-This document describes MCE::Shared version 1.881.
+This document describes MCE::Shared version 1.885.
 ### Description
 
 %package dev
@@ -58,8 +58,8 @@ perl components for the perl-MCE-Shared package.
 
 
 %prep
-%setup -q -n MCE-Shared-1.881
-cd %{_builddir}/MCE-Shared-1.881
+%setup -q -n MCE-Shared-1.885
+cd %{_builddir}/MCE-Shared-1.885
 
 %build
 export http_proxy=http://127.0.0.1:9/
