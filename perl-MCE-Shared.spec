@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-MCE-Shared
-Version  : 1.885
-Release  : 8
-URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.885.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.885.tar.gz
+Version  : 1.886
+Release  : 9
+URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.886.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.886.tar.gz
 Summary  : 'MCE extension for sharing data supporting threads and processes'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl GPL-1.0
@@ -27,7 +27,7 @@ BuildRequires : perl(MCE::Util)
 
 %description
 ## MCE::Shared for Perl
-This document describes MCE::Shared version 1.885.
+This document describes MCE::Shared version 1.886.
 ### Description
 
 %package dev
@@ -58,8 +58,8 @@ perl components for the perl-MCE-Shared package.
 
 
 %prep
-%setup -q -n MCE-Shared-1.885
-cd %{_builddir}/MCE-Shared-1.885
+%setup -q -n MCE-Shared-1.886
+cd %{_builddir}/MCE-Shared-1.886
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -105,6 +105,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 /usr/share/man/man3/MCE::Shared::Array.3
 /usr/share/man/man3/MCE::Shared::Base.3
 /usr/share/man/man3/MCE::Shared::Cache.3
+/usr/share/man/man3/MCE::Shared::Common.3
 /usr/share/man/man3/MCE::Shared::Condvar.3
 /usr/share/man/man3/MCE::Shared::Handle.3
 /usr/share/man/man3/MCE::Shared::Hash.3
