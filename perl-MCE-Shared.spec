@@ -6,10 +6,10 @@
 # autospec commit: fbcebd0
 #
 Name     : perl-MCE-Shared
-Version  : 1.888
-Release  : 13
-URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.888.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.888.tar.gz
+Version  : 1.890
+Release  : 14
+URL      : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.890.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/M/MA/MARIOROY/MCE-Shared-1.890.tar.gz
 Summary  : 'MCE extension for sharing data supporting threads and processes'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl GPL-1.0
@@ -29,7 +29,7 @@ BuildRequires : perl(MCE::Util)
 
 %description
 ## MCE::Shared for Perl
-This document describes MCE::Shared version 1.888.
+This document describes MCE::Shared version 1.890.
 ### Description
 
 %package dev
@@ -60,10 +60,10 @@ perl components for the perl-MCE-Shared package.
 
 
 %prep
-%setup -q -n MCE-Shared-1.888
-cd %{_builddir}/MCE-Shared-1.888
+%setup -q -n MCE-Shared-1.890
+cd %{_builddir}/MCE-Shared-1.890
 pushd ..
-cp -a MCE-Shared-1.888 buildavx2
+cp -a MCE-Shared-1.890 buildavx2
 popd
 
 %build
